@@ -28,7 +28,7 @@ class Stream_Analyzer:
         smoothing_length_ms = 50, 
         n_frequency_bins    = 51, 
         visualize = True,
-        verbose   = False):
+        verbose   = True):
 
         self.n_frequency_bins = n_frequency_bins
         self.rate = rate
